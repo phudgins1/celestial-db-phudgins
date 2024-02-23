@@ -307,6 +307,9 @@ INSERT INTO public.moon VALUES (22, 'Ymir', 6, false, '');
 -- Data for Name: other_bodies; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.other_bodies VALUES (1, 'Asteriods', 1, 'It is also a game');
+INSERT INTO public.other_bodies VALUES (2, 'Meteors', 1, 'They swing around from time to time');
+INSERT INTO public.other_bodies VALUES (3, 'Comets', 1, 'They swing around from time to time');
 
 
 --
@@ -358,7 +361,7 @@ SELECT pg_catalog.setval('public.moon_moon_id_seq', 22, true);
 -- Name: other_bodies_other_bodies_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.other_bodies_other_bodies_id_seq', 1, false);
+SELECT pg_catalog.setval('public.other_bodies_other_bodies_id_seq', 3, true);
 
 
 --
